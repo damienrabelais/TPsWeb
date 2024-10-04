@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT BonDeCommande (Organisation, Organisation, Date, Montant, Ligne+)>
+<!ELEMENT Organisation (Nom, Adresse, Tel, Fax?)>
+<!ELEMENT Ligne (Reference, Intitule, Quantite, Prix)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Montant (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Adresse (#PCDATA)>
+<!ELEMENT Tel (#PCDATA)>
+<!ELEMENT Fax (#PCDATA)>
+<!ELEMENT Reference (#PCDATA)>
+<!ELEMENT Intitule (#PCDATA)>
+<!ELEMENT Quantite (#PCDATA)>
+<!ELEMENT Prix (#PCDATA)>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>CV Tintin</title>
+	<meta charset="utf-8">
+	<!-- charset=UTF-8 : pour que les caractères accentués ressortent correctement -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- Pas d'icones par défaut avec BS 4, pour avoir des icones ajouter la ligne qui suit -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container">  <!-- container-fluid occuperait toute la largeur de l'écran : NON -->
+
+		<nav class="navbar navbar-expand-sm bg-success navbar justify-content-center">
+			<!-- logo -->
+			<a class="navbar-brand" href="#">
+				<img src="tintin.jpg" alt="logo" style="width:40px;">
+			</a>
+			<!-- Liens -->
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#etudes">Etudes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#competence">Compétence</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#experience">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+
+			</ul>
+		</nav>
+
+
+		<!-- Ligne 1 Titre -->
+		<div class="jumbotron">
+			<h1 class="text-primary text-center">Curriculum Vitae </h1>		 
+		 </div>
+				
+		<!-- Ligne 2 Données perso. -->
+		<div id = "donneeperso" class="row"> <!-- row, on va utiliser le système de grille ici ! -->
+
+			<div class="card col-sm-12 col-md-9">
+				<div class="card-header"><h2>Tintin</h2></div>
+				<div class="card-body"><h3>Chateau de Moulinsart<br>Belgique<br>
+					Né le 10 janvier 1929<br>
+					Célibataire<br>
+					<i class="fas fa-phone"></i> 06.78.90.10.12
+				</h3></div> 
+				<div class="card-footer"><a href="mailto:tintin@yahoo.be" class="btn btn-primary">Me contacter par mail</a></div>
+			  </div>
+		
+ 	
+			<div class="card  col-sm-12 col-md-3">
+				<img class="card-img-top img-responsive " src=" Tintin.jpg " alt=" Tintin ">
+				<div class="card-body">
+				  <h3 class="card-title">Tintin</h3>
+				  <p class="card-text">Journaliste, aventurier.</p>
+				</div>
+			  </div>
+
+        </div> <!-- End Données perso. -->
+
+
+		<!-- Ligne 3  Etudes -->
+		<div id="etudes" class="text-center" > <!-- système de grille pas utile ici, notre tableau 
+			occupera toute la largeur du viewport, pas de class row donc ! -->
+                        <h1>Etudes</h1>
+                        <table class=" table table-bordered">
+
+                            <tr class=" bg-success ">
+                                <td>2014</td>
+                                <td>Terminale STMG SIG Bac STMG SIG (Mention Assez Bien)</td>
+                            </tr>
+                            <tr class=" bg-warning ">
+                                <td>2013</td>
+                                <td>Premiere STMG</td>
+                            </tr>
+                            <tr class=" bg-success ">
+                                <td>2010</td>
+                                <td>Terminale STI</td>
+							</tr>
+                        </table>
+        </div> <!-- etudes -->
+			
+			
+		
+		<!-- Ligne 4  Compétences informatiques -->
+		<div id="competence" class="text-center" >
+				<h1>Compétences informatiques</h1>
+				<table class=" table table-bordered table-hover">
+					<tr>
+						<td>Systémes d'exploitation</td>
+						<td>Windows 7, Debian</td>
+					</tr>
+					<tr>
+						<td>Langages</td>
+						<td>HTML, CSS, Javascript, PHP, Visual Basic, Python, <a href=" http://www.java.com ">Java</a></td>
+					</tr>
+					<tr>
+						<td>IDE</td>
+						<td>Visual Studio, NetBeans</td>
+					</tr>
+					<tr>
+						<td>Frameworks</td>
+						<td>CodeIgniter</td>
+					</tr>
+					<tr>
+						<td>Reseau</td>
+						<td>VLAN, Routage, CISCO</td>
+					</tr>
+				</table>
+		</div><!-- competence -->
+		
+
+		<!-- Ligne 5  Expériences professionnelles -->
+		<div id="experience" class="text-center" >
+				<h1>Expériences professionnelles</h1>
+				<table class=" table table-bordered">
+					<tr class=" bg-success ">
+						<td>1930</td>
+						<td>Reportage au pays des Soviets</td>
+					</tr>
+					<tr class=" bg-warning ">
+						<td>1931</td>
+						<td>Reportage au Congo</td>
+					</tr>
+					<tr class=" bg-success ">
+						<td>1932</td>
+						<td>Reportage aux USA</td>
+					</tr>
+					<tr class=" bg-warning ">
+						<td>1954</td>
+						<td>Premier homme sur la Lune</td>
+					</tr>
+				</table>
+		</div> <!-- experience -->
+		
+		<!-- Ligne 6  Divers -->
+		<div id = "divers" class="text-center" >
+						<h1>Divers</h1>
+			
+                        <ul class="list-group list-group-flush">
+						<li class="list-group-item">Lecture</li>
+						<li class="list-group-item">Creation de site internet</li>
+						</ul>
+		</div> <!-- divers -->
+
+		<div id="contact" class="jumbotron">
+			<h1 class="text-large text-center">
+				Formulaire de contact
+			</h1>
+			<h5 class="text-large text-center">
+				N'hésitez pas à me contacter pour tout renseignement via mon adresse email <br>
+				ou via le formulaire ci-dessous.
+			</h5>
+			<form action="/traitement.php">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Nom" name="txtNom">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Prénom" name="txtPrenom">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email" name="txtEmail">
+					</div>
+				
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Message" name="txtMessage">
+				</div>
+				<div class="d-flex justify-content-center">
+					<button type="submit" class="btn btn-primary">Envoyer</button>
+				</div>
+			</form>
+		</div> <!-- contact -->
+
+	</div>
+</body>
+
+</html>
