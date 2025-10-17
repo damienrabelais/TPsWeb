@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE BonDeCommande SYSTEM "BonDeCommande.dtd">
+<BonDeCommande>
+	<Organisation>
+		<Nom>BCE</Nom>
+		<Adresse>6 NewDeal Street</Adresse>
+		<Tel>032123213</Tel>
+	</Organisation>
+	<Organisation>
+		<Nom>EuroCoins</Nom>
+		<Adresse>55 BigDeal Rd.</Adresse>
+		<Tel>0655957</Tel>
+	</Organisation>
+	<Date>010101</Date>
+	<Montant>9400</Montant>
+	<Ligne>
+		<Reference>EUR020</Reference>
+		<Intitule>1 coin 0.20</Intitule>
+		<Quantite>520000</Quantite>
+		<Prix>0.01</Prix>
+	</Ligne>
+	<Ligne>
+		<Reference>EUR010</Reference>
+		<Intitule>1 coin 0.10</Intitule>
+		<Quantite>350000</Quantite>
+		<Prix>0.012</Prix>
+	</Ligne>
+</BonDeCommande>

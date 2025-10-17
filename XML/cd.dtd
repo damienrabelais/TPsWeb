@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT CD (Titre, Interprete, Genre, Piste+)>
+<!ELEMENT Piste (Titre, Compositeur+, Duree)>
+<!ELEMENT Titre (#PCDATA)>
+<!ELEMENT Interprete (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Compositeur (#PCDATA)>
+<!ELEMENT Duree (#PCDATA)>

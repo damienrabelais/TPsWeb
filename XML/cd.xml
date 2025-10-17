@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE CD SYSTEM "cd.dtd">
+<CD>
+   <Titre>Stan Getz Finest Hour</Titre>
+   <Interprete>STAN GETZ</Interprete>
+   <Genre>Jazz/blues</Genre>
+   <Piste>
+      <Titre>It Never Entered My Mind</Titre>
+      <Compositeur>Hart</Compositeur>
+      <Compositeur>Rodgers</Compositeur>
+      <Duree>3:51</Duree>
+   </Piste>
+   <Piste>
+      <Titre>S-h-i-n-e</Titre>
+      <Compositeur>Brown</Compositeur>
+      <Duree>8 :56</Duree>
+   </Piste>
+</CD>
